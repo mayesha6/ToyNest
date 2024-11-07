@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toy Nest</title>
+
+        <!-- google font cdn -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Varela+Round&display=swap" rel="stylesheet">
+
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- bootstrap css cdn -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- customize css -->
+         <link rel="stylesheet" href="assets/css/style.css">
+
+         <!-- favicon -->
+          <link rel="shortcut icon" href="assets/images/stuffed-animal-1.png" type="image/x-icon">
+    </head>
+    <body>        
+        <!-- start header section -->
+        <header class="header-section fixed-top">
+            <div class="pre-header bg-primary d-none d-md-block">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="pre-header-contact">
+                        <a href="#" class="text-light pe-1">Call us: 01881979246</a>
+                        <a href="#" class="text-light">Email: soumyrhmn234@gmail.com</a>
+                    </div>
+                    <nav class="social-media-icon">
+                        <ul class="m-0">
+                            <li class="d-inline-block "><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-twitter  text-light"></i></a></li>
+                            <li class="d-inline-block "><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-square-facebook  text-light"></i></a></li>
+                            <li class="d-inline-block "><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-instagram  text-light"></i></a></li>
+                            <li class="d-inline-block "><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-pinterest-p  text-light"></i></a></li>
+                            <li class="d-inline-block"><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-youtube  text-light"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-md navbar-light shadow-sm bg-white">
+                <div class="container">
+                    <!-- logo -->
+                    <a class="navbar-brand" href="#">ToyNest</a>
+                    <!-- menu icon -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <!-- main menu -->
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize text-center" href="about.html">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize text-center" href="catalouge.html">catalog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize text-center" href="delivery.html">delivery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize text-center" href="contact.html">contacts</a>
+                            </li>
+                        </ul>
+                        <!-- cart  -->
+                        <div class="d-flex gap-2 align-items-center justify-content-center">
+                            <p class="m-0 text-capitalize text-secondary">cart</p>
+                            <a href="#" class=""><i class="fa-solid fa-cart-shopping text-secondary"></i></a>
+                            <button type="button" class="btn btn-primary px-1 py-0 rounded-circle">0</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- end header section -->
+        
+        <!-- start hero section -->
+        <section class="hero-section">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <!-- slide 1 -->
+                    <div class="carousel-item active">
+                        <img src="assets/images/hero3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5 class="text-white fs-2 d-none d-sm-block">Find Joy in Every Toy</h5>
+                            <a href="#" class="btn btn-primary text-capitalize rounded-pill">Grab your Toy</a>
+                        </div>
+                    </div>
+                    <!-- slide 2 -->
+                    <div class="carousel-item">
+                        <img src="assets/images/hero4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  ">
+                            <h5 class="text-white fs-2 d-none d-sm-block">Discover the Magic of Playtime</h5>
+                            <a href="#" class="btn btn-primary text-capitalize rounded-pill">Grab your Toy</a>
+                        </div>
+                    </div>
+                    <!-- slide 3 -->
+                    <div class="carousel-item">
+                        <img src="assets/images/hero5.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  ">
+                            <h5 class="text-white fs-2 d-none d-sm-block">Crafted for Kids, Loved by All!</h5>
+                            <a href="#" class="btn btn-primary text-capitalize rounded-pill">Grab your Toy</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- end hero section -->
+
+        <!-- start shop-now section -->
+        <section class="shop-now-section relative">
+            <div class="container">
+                <div class="shop-now row gx-md-5 gy-5">
+                    <div class="col-12 col-md-6">
+                        <div class="shop-toy bg-warning p-3 rounded-3 row">
+                            <div class="shop-toy-img col-7">
+                                <img src="assets/images/shop1.png" class="d-block w-75 position-relative" alt="">
+                            </div>
+                            <div class="shop-toy-text col-5 d-flex flex-column justify-content-center">
+                                <h3 class="text-capitalize text-center">Soft Toys</h3>
+                                <a href="#" class="btn btn-light text-dark text-capitalize rounded-pill">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="shop-toy bg-info p-3 rounded-3 row">
+                            <div class="shop-toy-text col-5 d-flex flex-column justify-content-center">
+                                <h3 class="text-capitalize text-center">wooden Toys</h3>
+                                <a href="#" class="btn btn-light text-dark text-capitalize rounded-pill">shop now</a>
+                            </div>
+                            <div class="shop-toy-img col-7">
+                                <img src="assets/images/shop2.png" class="d-block w-75 position-relative ms-auto" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end shop-now section -->
+
+        <!-- start soft-toys section -->
+        <section class="soft-toys-section">
+            <div class="container">
+                <div class="title d-flex justify-content-between align-items-center mb-3">
+                    <h2 class="text-capitalize">soft toys</h2>
+                    <a href="#" class="text-capitalize">see all toys<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="title-bottom"></div>
+                <div class="soft-toys row gy-3 mt-4">
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card rounded-5 w-100  h-100 d-flex flex-column">
+                            <img src="assets/images/stuffed-animal-1.png" class="card-img-top w-50 mx-auto mt-4" alt="...">
+                            <div class="card-body text-center mb-4">
+                                <h5 class="card-title text-capitalize">Teddy bear</h5>
+                                <p class="card-text">Soft toys bring comfort and joy to all ages.</p>
+                                <a href="#" class="btn btn-primary text-white text-capitalize rounded-pill">$30.00 USD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card rounded-5 w-100 h-100 d-flex flex-column">
+                            <img src="assets/images/stuffed-animal-2.png" class="card-img-top w-50 mx-auto mt-4" alt="...">
+                            <div class="card-body text-center mb-4">
+                                <h5 class="card-title text-capitalize">Mega Plush Toy</h5>
+                                <p class="card-text">Soft toys are easy to clean and maintain.</p>
+                                <a href="#" class="btn btn-primary text-white text-capitalize rounded-pill">$35.00 USD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card rounded-5 w-100 h-100 d-flex flex-column">
+                            <img src="assets/images/stuffed-animal-3.png" class="card-img-top w-50 mx-auto mt-4" alt="...">
+                            <div class="card-body text-center mb-4">
+                                <h5 class="card-title text-capitalize">Cute Dog</h5>
+                                <p class="card-text">Some soft toys are interactive and make sounds.</p>
+                                <a href="#" class="btn btn-primary text-white text-capitalize rounded-pill">$20.00 USD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card rounded-5 w-100 h-100 d-flex flex-column">
+                            <img src="assets/images/stuffed-animal-4.png" class="card-img-top w-50 mx-auto mt-4" alt="...">
+                            <div class="card-body text-center mb-4">
+                                <h5 class="card-title text-capitalize">Little Friend</h5>
+                                <p class="card-text">Soft toys are perfect for cuddling and comfort.</p>
+                                <a href="#" class="btn btn-primary text-white text-capitalize rounded-pill">$23.00 USD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end soft-toys section -->
+
+        <!-- start wooden toys section -->
+        <section class="soft-toys-section">
+            <div class="container">
+                <div class="title d-flex justify-content-between align-items-center mb-3">
+                    <h2 class="text-capitalize">wooden toys</h2>
+                    <a href="#" class="text-capitalize">see all toys<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="title-bottom"></div>
+                <div class="soft-toys row gy-3 mt-4">
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card rounded-5 w-100  h-100 d-flex flex-column">
+                            <img src="assets/images/wooden-toy-1.png" class="card-img-top w-50 mx-auto mt-4" alt="...">
+                            <div class="card-body text-center mb-4">
+                                <h5 class="card-title text-capitalize">Happy Flower</h5>
+                                <p class="card-text">Wooden toys are durable and long-lasting.</p>
+                                <a href="#" class="btn btn-primary text-white text-capitalize rounded-pill">$30.00 USD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card rounded-5 w-100 h-100 d-flex flex-column">
+                            <img src="assets/images/wooden-toy-2.png" class="card-img-top w-50 mx-auto mt-4" alt="...">
+                            <div class="card-body text-center mb-4">
+                                <h5 class="card-title text-capitalize">Lift Machine</h5>
+                                <p class="card-text">They’re eco-friendly and made from natural materials.</p>
+                                <a href="#" class="btn btn-primary text-white text-capitalize rounded-pill">$35.00 USD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card rounded-5 w-100 h-100 d-flex flex-column">
+                            <img src="assets/images/wooden-toy-3.png" class="card-img-top w-50 mx-auto mt-4" alt="...">
+                            <div class="card-body text-center mb-4">
+                                <h5 class="card-title text-capitalize">Wooden Camera</h5>
+                                <p class="card-text">Wooden toys encourage imaginative play and creativity.</p>
+                                <a href="#" class="btn btn-primary text-white text-capitalize rounded-pill">$20.00 USD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <div class="card rounded-5 w-100 h-100 d-flex flex-column">
+                            <img src="assets/images/wooden-toy-4.png" class="card-img-top w-50 mx-auto mt-4" alt="...">
+                            <div class="card-body text-center mb-4">
+                                <h5 class="card-title text-capitalize">Little Rabbit</h5>
+                                <p class="card-text">They have a classic, timeless charm loved by all ages.</p>
+                                <a href="#" class="btn btn-primary text-white text-capitalize rounded-pill">$23.00 USD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>         
+        <!-- end wooden toys section -->
+
+        <!-- start watch story section -->
+        <section class="watch-story-section">
+            <div class="container">
+                <div class="watch-story text-center d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="text-capitalize text-white fs-1">Watch Our Story</h2>
+                    <p class="text-white pb-2">There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer's mood.</p>
+                    <div class="watch-icon">
+                        <a href="#" class="d-inline-block bg-primary px-3 py-2 rounded-circle"><i class="fa-solid fa-play text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end watch story section -->
+
+        <!-- start about section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="title text-center">
+                    <p class="text-capitalize m-0 text-primary">about the shop</p>
+                    <h2 class="mb-5">Where adventure and creativity begin</h2>
+                </div>
+                <div class="about row">
+                    <div class="col-12 col-lg-6">
+                        <img src="assets/images/free.jpeg" alt="" class="w-100 d-block rounded">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h3 class="text-capitalize mb-2 mt-4">about us</h3>
+                        <div class="title-bottom"></div>
+                        <p class="mt-4">Welcome to <strong class="text-primary">"Toy Nest"</strong>, your go-to destination for quality toys that inspire joy and creativity! From cuddly soft toys to timeless wooden pieces, we offer a unique selection designed to spark imagination and bring comfort. Discover toys crafted with love and built to last, perfect for playtime and treasured memories.</p>
+                        <a href="about.html" class="btn btn-primary text-light text-capitalize rounded-pill">more about us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about section -->
+
+        <!-- start contact section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact">
+                    <div class="title text-center">
+                        <h2 class="mb-4">Leave a Message</h2>
+                    </div>
+                    <div class="form">
+                        <div class="mb-3">
+                            <label for="fname" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="Enter your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message-box" class="form-label">Message</label>
+                            <textarea class="form-control" id="message-box" rows="3" placeholder="Message text..."></textarea>
+                        </div>
+                        <div class="">
+                            <input type="submit" value="Send message" class="btn btn-primary text-light text-capitalize rounded-pill">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact section -->
+
+        <!-- start instagram section -->
+        <section class="instagram-section">
+            <div class="container">
+                <div class="instagram text-center">
+                    <div class="title text-center">
+                        <p class="text-capitalize m-0 text-primary">@NimbleNest</p>
+                        <h2 class="mb-5">Instagram Awaits - Follow Us!</h2>
+                    </div>
+                    <div class="row gy-3">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="assets/images/instagram-image-1.jpg" alt="" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="assets/images/instagram-image-2.jpg" alt="" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="assets/images/instagram-image-3.jpg" alt="" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="assets/images/instagram-image-4.jpg" alt="" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="assets/images/instagram-image-5.jpg" alt="" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="assets/images/instagram-image-6.jpg" alt="" class="d-block w-100 rounded">
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary text-light text-capitalize rounded-pill text-center mt-5">see more photoes</a>
+                </div>
+            </div>
+        </section>
+        <!-- end instagram section -->
+
+        <!-- start footer section -->
+         <footer class="footer-section bg-primary pt-4 pb-1">
+            <div class="container">
+                <div class="footer">
+                    <div class="d-flex justify-content-between pb-4">
+                        <!-- logo -->
+                        <a class="text-white fs-5" href="index.html">ToyNest</a>
+                        <!-- main menu -->
+                        <nav class="footer-menu">
+                            <ul class="mb-0">
+                                <li class="d-inline-block">
+                                    <a class="ps-3 text-capitalize text-center text-white" href="about.html">about</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a class="ps-3 text-capitalize text-center text-white" href="catalouge.html">catalog</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a class="ps-3 text-capitalize text-center text-white" href="delivery.html">delivery</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a class="ps-3 pe-0 text-capitalize text-center text-white" href="contact.html">contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <!-- social-media-icon -->
+                        <nav class="social-media-icon mb-0">
+                            <ul class="mb-0">
+                                <li class="d-inline-block "><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-twitter  text-light"></i></a></li>
+                                <li class="d-inline-block "><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-square-facebook  text-light"></i></a></li>
+                                <li class="d-inline-block "><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-instagram  text-light"></i></a></li>
+                                <li class="d-inline-block "><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-pinterest-p  text-light"></i></a></li>
+                                <li class="d-inline-block"><a href="#" class="d-block px-2 py-1 rounded-circle"><i class="fa-brands fa-youtube  text-light"></i></a></li>
+                            </ul>
+                        </nav>
+                        <p class="text-white pt-1">Designed with <i class="fa-solid fa-heart text-dark"></i> by <a href="#" class="text-light text-decoration-underline">Mayesha Soumy</a></p>                        
+                    </div>
+                </div>
+            </div>
+         </footer>
+        <!-- end footer section -->
+
+        <!-- bootstrap js cdn -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- customize js -->
+         <script src="assets/js/script.js"></script>
+    </body>
+</html>
